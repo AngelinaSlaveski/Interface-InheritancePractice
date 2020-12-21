@@ -6,7 +6,7 @@ namespace Interfaces
 {
     static class Tools
     {
-        private static string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        private static string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
         public static string GenerateLicensePlate()
         {

@@ -13,13 +13,13 @@ namespace Interfaces
             s2.SpeedUp();
             t.SpeedUp();
 
-            Console.WriteLine("");
             Console.WriteLine($"Sedan with license plate \"{s1.LicensePlate}\" and {s1.Wheels} wheels, driving at {s1.Speed} km/h.");
             Console.WriteLine($"Sedan with license plate \"{s2.LicensePlate}\"and {s2.Wheels} wheels, driving at {s2.Speed} km/h.");
             Console.WriteLine($"Truck with license plate \"{t.LicensePlate}\" and {t.Wheels} wheels, driving at {t.Speed} km/h.");
-            Console.WriteLine($"\n Sedan's faster speed: {s1.Speed}");
-            Console.WriteLine($"Sedan's faster speed: {s2.Speed}");
-            Console.WriteLine($"Truck's faster speed: {t.Speed}");
+            Console.WriteLine("");
+            Console.WriteLine($"Sedan's faster speed: {s1.Speed} km/h");
+            Console.WriteLine($"Sedan's faster speed: {s2.Speed} km/h");
+            Console.WriteLine($"Truck's faster speed: {t.Speed} km/h");
 
 
 
